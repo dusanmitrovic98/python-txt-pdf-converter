@@ -20,3 +20,4 @@ def convert_to_pdf(input_file):
         pdf.multi_cell(0, 10, text_content)
 
         pdf.output(output_file)
+        print("File converted to PDF.")
