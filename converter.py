@@ -31,3 +31,4 @@ def convert_from_pdf(input_file):
     output_file = filename + ".docx"
 
     if extension == ".pdf":
+        if os.system("pdftotext -v") == 0:
