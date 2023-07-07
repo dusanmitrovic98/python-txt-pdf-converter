@@ -23,3 +23,4 @@ def convert_to_pdf(input_file):
         print("File converted to PDF.")
         return
 
+    print("Conversion not supported.")
