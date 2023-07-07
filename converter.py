@@ -30,3 +30,4 @@ def convert_from_pdf(input_file):
     filename, extension = os.path.splitext(input_file)
     output_file = filename + ".docx"
 
+    if extension == ".pdf":
