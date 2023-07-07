@@ -19,3 +19,4 @@ def convert_to_pdf(input_file):
         pdf.set_font("Arial", size=12)
         pdf.multi_cell(0, 10, text_content)
 
+        pdf.output(output_file)
