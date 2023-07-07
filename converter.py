@@ -9,3 +9,4 @@ def convert_to_pdf(input_file):
         print("Already a PDF file.")
         return
 
+    if extension == ".txt":
