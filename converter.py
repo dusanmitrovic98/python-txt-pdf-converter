@@ -12,3 +12,4 @@ def convert_to_pdf(input_file):
     if extension == ".txt":
         pdf = FPDF()
         pdf.add_page()
+
