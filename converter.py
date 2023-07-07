@@ -28,3 +28,4 @@ def convert_to_pdf(input_file):
 
 def convert_from_pdf(input_file):
     filename, extension = os.path.splitext(input_file)
+    output_file = filename + ".docx"
