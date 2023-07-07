@@ -14,3 +14,4 @@ def convert_to_pdf(input_file):
         pdf.add_page()
 
         with open(input_file, "r") as file:
+            text_content = file.read()
