@@ -22,3 +22,4 @@ def convert_to_pdf(input_file):
         pdf.output(output_file)
         print("File converted to PDF.")
         return
+
