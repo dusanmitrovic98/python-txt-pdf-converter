@@ -13,3 +13,4 @@ def convert_to_pdf(input_file):
         pdf = FPDF()
         pdf.add_page()
 
+        with open(input_file, "r") as file:
