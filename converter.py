@@ -8,3 +8,4 @@ def convert_to_pdf(input_file):
     if extension == ".pdf":
         print("Already a PDF file.")
         return
+
