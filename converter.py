@@ -42,7 +42,10 @@ def convert_from_pdf(input_file):
     print("Conversion not supported.")
 
 # Specify the file path here
-file_path = "git-amend.txt"
+file_path = "file.txt"
 
 # Convert to PDF
 convert_to_pdf(file_path)
+
+# Convert from PDF
+# convert_from_pdf(file_path)
