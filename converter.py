@@ -35,3 +35,4 @@ def convert_from_pdf(input_file):
             os.system(f"pdftotext {input_file} {output_file}")
             print("File converted from PDF.")
             return
+
