@@ -10,3 +10,4 @@ def convert_to_pdf(input_file):
         return
 
     if extension == ".txt":
+        pdf = FPDF()
