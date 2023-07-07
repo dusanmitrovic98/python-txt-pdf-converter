@@ -45,3 +45,4 @@ def convert_from_pdf(input_file):
 file_path = "git-amend.txt"
 
 # Convert to PDF
+convert_to_pdf(file_path)
