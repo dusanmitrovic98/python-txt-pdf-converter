@@ -15,3 +15,4 @@ def convert_to_pdf(input_file):
 
         with open(input_file, "r") as file:
             text_content = file.read()
+
