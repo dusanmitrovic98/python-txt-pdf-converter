@@ -34,3 +34,4 @@ def convert_from_pdf(input_file):
         if os.system("pdftotext -v") == 0:
             os.system(f"pdftotext {input_file} {output_file}")
             print("File converted from PDF.")
+            return
