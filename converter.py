@@ -38,3 +38,4 @@ def convert_from_pdf(input_file):
 
         print("pdftotext utility not found. Conversion from PDF not supported.")
         return
+    
