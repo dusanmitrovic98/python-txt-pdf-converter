@@ -40,3 +40,4 @@ def convert_from_pdf(input_file):
         return
     
     print("Conversion not supported.")
+
